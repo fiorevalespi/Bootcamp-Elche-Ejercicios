@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+    
+             <meta charset="UTF-8">
+        
+    </head>
+    
+    <body>
+        
+        <h2>Validacion en HTML con JavaScript</h2>
+        
+        <p>Introduce un numero entre 1 y 10:</p>
+        
+        <input id="numb">
+        
+        <button type="button" onclick="myFunction()"> Enviar </button>
+        
+        <p id="demo"></p>
+        
+        <script>
+       
+            function myFunction(){
+                var x, text;
+                x= document.getElementById("numb").value;
+                
+                if (isNaN(x) || x < 1 || x > 10) {
+                    text = "No es una entrada valida";
+                    
+                } else {
+                    text= "Te doy el apruvement";
+                }
+                document.getElementById("demo").innerHTML = text;
+            }
+            
+            
+        </script>
+
+    </body>
+    
+</html>

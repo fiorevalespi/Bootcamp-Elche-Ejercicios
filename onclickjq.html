@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+    
+             <meta charset="UTF-8">
+        
+        <title>Ejecutar una fincion pulsando un elemento</title>
+        
+        <script src="http://code.jquery.com/jquery-3.2.1.min.js">
+          
+        </script>
+        
+        <style type="text/css">
+        p{
+        
+        padding: 20px;
+        font: 20px sans-serif;
+        background: khaki;
+    
+        }
+        
+        </style>
+        
+        <script type="text/javascript">
+            
+            
+            $(document).ready(function(){
+                
+                $("p").click(function(){
+                    $(this).slideUp();
+            }); 
+                
+            });
+        
+        </script>
+
+    </head>
+    
+    <body>
+        
+        <p>Pinchame y desaparecere</p>
+        <p>Pinchame y desaparecere</p>
+        <p>Pinchame y desaparecere</p>
+    
+    </body>
+    
+</html>

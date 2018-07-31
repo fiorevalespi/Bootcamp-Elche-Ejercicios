@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+    
+             <meta charset="UTF-8">
+        
+        <title>Insertando contenido antes y despues de un elemento</title>
+        
+        <script src="http://code.jquery.com/jquery-1.12.4.min.js">
+          
+        </script>
+        
+        <script type="text/javascript">
+        
+            $(document).ready(function(){
+            //Add contenet after a div container on document ready
+            $("#container").after("<p>- The end-</p>");
+                
+            //Add contened before a div container on document ready
+               $("#container").before("<p>- The end-</p>");
+                
+            //Add contened after a div container on document ready
+               $("#container").before("<p>- The end-</p>");
+                
+                    $(window).bind("resize", function(){
+                        $("p").text("Altura de la ventana: " + $ (window).width()+","+"Anchura de la ventana: " + $(window).height());
+                        
+                    });
+                });
+            });    
+        
+        </script>
+
+    </head>
+    
+    <body>
+        
+       <p>Cambia el tamaño de la ventana</p>
+    
+    </body>
+    
+</html>Método before() y after()

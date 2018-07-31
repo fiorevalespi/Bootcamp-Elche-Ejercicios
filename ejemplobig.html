@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Variables en Javascript  
+    </title>
+    
+    </head>
+    <body>
+    <p id="parrafo1"></p>
+    <p id="parrafo2"></p>
+    <p id="parrafo3"></p>
+        <script>
+            var nombre;
+            document.getElementById("parrafo1").innerHTML= nombre
+            nombre = "Ada";
+            document.getElementById("parrafo2").innerHTML= nombre;
+            var pais=" Reino Unido ",
+                nacimiento = 1815;
+            var nombreApellido = "Ada" + " " + "Lovelace";
+            var fallecimiento = nacimiento + 37;
+            document.getElementById("parrafo3").innerHTML= nombreApellido+" nacio en "+ pais + " en " + nacimiento+ " y murio en " + fallecimiento;
+            </script>
+    </body>
+</html>

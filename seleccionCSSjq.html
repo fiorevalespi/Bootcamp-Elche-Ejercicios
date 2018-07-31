@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+    
+             <meta charset="UTF-8">
+        
+        <title>Selecionando por ID en JQuery</title>
+        
+        <script src="http://code.jquery.com/jquery-3.2.1.min.js">
+          
+        </script>
+        
+        <script type="text/javascript">
+            $(document).ready(function(){
+                //Combinamos el elemento parrafo con la clase marca
+                $("p.marca").css("background", "yellow");
+                //Combinamos span con el id marca
+                $("#marca span").css("background", "yellow");
+                //Combinamos dos elementos ul e il
+                $("ul li").css("background", "yellow");
+                 //Combinamos dos elementos y el id marca
+                $("ul#marca li").css("background", "red");
+                 //Combinamos dos marcas y la clase marca
+                $("ul.marca li").css("background", "green");
+                
+            });    
+        
+        </script>
+
+    </head>
+    
+    <body>
+        
+     
+        <p>Esto es un parrafo.</p>
+        <p>Esto es otro parrafo.</p>
+        <div>Este otro mas.</div>
+        
+        <ul>
+        
+        <li>Item uno</li>
+        <li>Item dos</li>
+        <li>Item tres</li>
+            
+        </ul>
+        
+        <ul id="marca">
+            
+        <li>Lista uno</li>
+        <li>Lista dos</li>
+        <li>Lista tres</li>
+        
+        
+        </ul>
+        
+        <ul class="marca">
+        
+        <li>Y otro</li>
+        <li>Pozi</li>
+        <li>Pono</li>
+        
+        </ul>
+        
+        <p>Go to<a href="#">Inicio</a></p>
+            
+           
+    </body>
+    
+</html>

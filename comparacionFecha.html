@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    
+    <p id="demo"> </p>
+     
+    <script>
+    var hoy, algunDia, texto;
+        hoy= new Date();
+        algunDia = new Date();
+        algunDia.setFullYear(2019, 09, 01);
+        
+        if (algunDia > hoy) {
+            texto = "Hoy es antes del apocalipsis zombie total";
+        } else {
+            texto = "Hoy es despues del fallido apocalipsis zombie total, mas suerte para la procima"
+        }
+        
+        document.getElementById("demo").innerHTML = texto;
+        
+        
+        
+    </script>
+         
+    </body>
+</html>

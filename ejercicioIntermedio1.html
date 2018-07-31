@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+    
+             <meta charset="UTF-8">
+        
+    </head>
+    
+    <body>
+        
+        <h1>Numero Random</h1>
+        
+        <p>Introduce un numero entre 1 y 100:</p>
+        
+        <input id="numb">
+        
+        
+        <button type="button" onclick="myFunction()"> Intentalo </button>
+        
+        <input id="number">
+        
+        <p id="demo"></p>
+        <p id="demo2"></p>
+        
+        <script>
+       
+            function myFunction(){
+                var x, text;
+                x= document.getElementById("numb").value;
+                
+                if (isNaN(x) || x < 1 || x > 100) {
+
+                    text = "No es una entrada valida";
+                } else {
+                    text = " "
+                }
+
+                document.getElementById("demo").innerHTML = text;
+            }
+            
+          
+        </script>
+
+    </body>
+    
+</html>

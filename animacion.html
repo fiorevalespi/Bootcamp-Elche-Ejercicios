@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+    
+    
+    <style>
+    /*Con la etiqueta <style> definimos informacion del estilo para un documento HTML */
+        
+        #container {
+            /*Un contenedor es un componente especial que permite contener en su interior a otros componentes, incluidos otros contenedores*/
+            width: 400px;
+            /*Width es la anchura*/
+            height: 400px;
+            /*Height es la altura*/
+            position: relative;
+            /*Position es una propiedad que especifica el tipo de método de posicionamiento utilizado para un elemento*/
+            /*En la position relative el elemento se coloca en relación con su posición normal*/
+            background: yellow;
+            /*La propiedad background especifica el color de fondo de un elemento.*/
+        }
+        
+        #animate {
+            /* Animate una animación que permite que un elemento cambie gradualmente de un estilo a otro*/
+            width: 50px;
+            /*Width es la anchura*/
+            height: 50px;
+            /*Height es la altura*/
+            position: absolute;
+            /*El elemento se coloca en relación con su primer elemento no estático*/
+            background-color: red; 
+            /*Establece el color de fondo de un elemento*/
+        }
+        
+    </style>
+    
+  
+    <body>
+        
+        <p>
+        <!-- <p> es un párrafo -->
+            
+            <button onclick="myMove()">Pulsa</button>
+            <!-- La etiqueta <button> define un botón en el que se puede hacer clic-->
+            <!-- El evento Onclick ejecuta un JavaScript cuando el usuario hace clic en un elemento,en este caso cuando hace clic en el boton se llama la funcion myMove -->
+        
+        </p>
+        
+        <div id="container">
+        <!--La etiqueta <div> define una división en un documento HTML, este elemento div esta llamando por id al container-->
+        <div id="animate"></div>
+        <!-- este elemento div esta llamando por id a animate-->
+        </div>
+        
+  
+        <script>
+        // el script es la etiqueta delimitadora que separan las etiquetas HTML de las instrucciones javascript, todo el código javascript es introducido en esta etiqueta
+        
+            function myMove(){
+                
+                //Una función es un bloque de código diseñado para realizar una tarea en particular, la cual se ejecuta cuando es invocada
+                
+                var elem = document.getElementById("animate");
+                //La etiqueta <var> es una etiqueta que define una variable. En este caso le estamos asignando el valor del animate creado arriba
+                var pos = 0;
+                var id = setInterval (frame, 5);
+                //El método setInterval () llama a una función o evalúa una expresión a intervalos específicos (en milisegundos).
+                
+                function frame() {
+                // Se esta creando la funcion llamada frame
+                if (pos == 350) {
+                /* if es para especificar un bloque de código para ser ejecutado, si una condición especificada es verdadera, en este caso que la variable pos sea igual que 350 utilizando el operador de comparacion == que significa "igual a" */
+                    clearInterval (id);
+                    //El método clearInterval () borra un temporizador establecido con el método setInterval ().
+            } else {
+                //Else se usa para especificar un bloque de código que se ejecutará, si la condición del if es falsa
+                pos++;
+                //La variable pos se incrementara uno usando el operador aritmetico
+                elem.style.top = pos + 'px';
+                //Se esta indicando que la variable elem estara en la parte superior y se iguala a la variable pos
+                elem.style.left = pos + 'px';
+                //Se esta indicando que la variable elem estara en la parte derecha y se iguala a la variable pos
+            }
+                }
+            
+            }
+        
+        </script>
+        
+    </body>
+    
+</html>

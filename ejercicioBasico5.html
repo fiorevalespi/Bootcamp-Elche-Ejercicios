@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+    
+             <meta charset="UTF-8">
+        
+    </head>
+    
+    <body>
+        
+        <h1>Numeros Primos</h1>
+        
+        <p>Introduce un numero del 1 al 100</p>
+        
+        <input id="numb">
+        
+        <button type="button" onclick="myFunction()"> Enviar </button>
+        
+        <p id="demo"></p>
+        
+        <script>
+       
+            function myFunction(){
+                var x, text;
+                x= document.getElementById("numb").value;
+                 
+                if (isNaN(x) || x < 1 || x > 100) {
+                    text = "No es una entrada valida";
+                
+                } else if
+                
+                
+                
+                else {
+                    text= "No es un Numero Primo"
+                }
+                document.getElementById("demo").innerHTML = text;
+            }
+            
+            
+        </script>
+
+    </body>
+    
+</html>

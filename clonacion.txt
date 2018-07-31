@@ -1,0 +1,52 @@
+git clone (+url)
+
+ls --> Ves lo que hay dentro de la carpeta en la que estás
+
+cd (+nombre del archivo)--> entras en una carpeta o archivo
+
+cd --> Sales a un nivel anterior
+
+touch (+nombre fichero) --> Creas un fichero vacío
+
+git status --> Ves el estado del git si estás en un archivo git
+
+git add (nombre de archivo) --> añadir un archivo a git
+
+git commit -m "Mensaje aquí" --> Añade un mensaje al archivo/la acutalización
+
+git config user.email "email"
+
+git config user.name "nombre de usuario"
+
+git push
+
+
+INSTRUCCIONES
+
+1) ls, cd, etc, hasta estar en la página apropiada.
+
+2) git clone (url) --> Solo cuando es la primera vez que se trabaja con esa carpeta
+
+ls (ves la creacion del fichero)
+cd (nombre del archivo)
+ls --> (carpeta readme)
+touch --> se crea un archivo vacio
+ls --> muestra el archivo creado
+
+3) git status --> Muestra el estado del git y lo que se debe hacer a continuación.
+
+4) git add --> Para añadir un archivo
+
+5) git status --> Si todo va bien dirá commited
+
+6) git commit -m "lo que estamos haciendo" 
+
+7) git config user.email
+
+8) git confit user.name
+
+9) git commit -m "el mismo mensaje que antes"
+
+10) git push
+
+11) git status para comprobar que todo está bien.

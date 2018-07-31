@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+    
+             <meta charset="UTF-8">
+        
+        <title>Ejecutar una fincion  con el metodo hover()</title>
+        
+        <script src="http://code.jquery.com/jquery-3.2.1.min.js">
+          
+        </script>
+        
+        <style type="text/css">
+        p{
+        
+        padding: 20px;
+        font: 20px sans-serif;
+        background: #f2f2f2;
+    
+        }
+            
+            p.highlight {
+                background: red;
+            }
+            
+        
+        </style>
+        
+        <script type="text/javascript">
+            
+            
+            $(document).ready(function(){
+                
+                $("p").hover(function(){
+                    $(this).addClass("highlight");
+            }, function(){
+                    $(this).removeClass ("highlight");
+                });
+                
+            });
+        
+        </script>
+
+    </head>
+    
+    <body>
+        
+        <p>Tocame y me piogo rojito</p>
+        <p>Tocame y me piogo rojito</p>
+        <p>Tocame y me piogo rojito</p>
+    
+    </body>
+    
+</html>

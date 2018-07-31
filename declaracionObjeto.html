@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<body>
+    
+    <p>Creando un metodo de objeto</p>
+    
+    <p id="demo"></p>
+    
+    <script> persona ={
+        var  nombre: "Paquito",
+            apellido: "Chocolatero"
+            id: 8899,
+            nombreCompleto: function(){
+            return this.nombre + " " + this.apellido;
+        }
+        };
+        
+        document.getElementById("demo").innerHTML = persona.nombreCompleto;
+        
+    
+    </script>
+    
+        
+    </body>
+</html>

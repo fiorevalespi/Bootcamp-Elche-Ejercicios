@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head> 
+<title>Vida Saludable</title>
+</head> 
+
+<body>
+<h1> Cómo comenzar una vida saludable</h1>
+
+<ol> 
+<li><a href="#seccion1">Empiaza a comer sano</a></li>
+   <ul><a href="#Consejos">Consejos</a></ul>
+<li><a href="#seccion2">Ejercitate</a></li>
+<li><a href="#seccion3">Crea tu propio equilibrio</a></li>
+</ol>
+
+<h2 id="seccion1">Empieza a comer sano</h2>
+<img src="https://cdn.pixabay.com/photo/2017/10/09/19/29/food-photography-2834549_960_720.jpg" alt="Comida Saludable" title="Comida Sana" width="480" height="320">
+<p> Comer saludable es una manera de balancear los alimentos que comes <br> para mantener tu cuerpo fuerte, energético, y bien nutrido.<br> Cuando comes bien, estás cuidando tu cuerpo.
+<p> La meta es comer varias veces al dia, lo creas o no, el comer <br> 3 comidas y 2 meriendas al día es la mejor manera para mantener <br> tus niveles de energía y un peso saludable 
+<p> Trata formas más saludables de cocinar como asar, sofreir, <br> cocinar  en el microhondas, hornear y hervir en vez de freir.
+</p>
+
+<h3 id="Consejos">Consejos</h3>
+
+<ul>
+<li><strong> No omitas las comidas</strong></li>
+<p>Cuando nuestro organismo detecta que hemos pasado varias horas sin comer,<br> se pone en alerta. Mucha gente piensa que, cuando estamos unas horas sin comer,<br> el cuerpo “tira de reservas de grasa” pero, en realidad, esto no es así. Lo que hace,<br> en primer lugar, es alimentarse de células musculares, de ligamentos y de cartilagos </p>
+<li>Aprende maneras simples y saludables de preparar los alimentos</li>
+<p>Trata formas más saludables de cocinar como asar, sofreir, cocinar en el microhondas,<br> hornear y hervir en vez de freir.</p>
+<li>Limita el consumo de ciertos alimentos</li>
+<p>Hay alimentos que por su composición hay que controlar la frecuencia <br> con la que los tomas y la cantidad de los mismos.</p>
+</ul>
+
+<h2 id="seccion2">Ejercitate</h2>
+<img src="https://cdn.pixabay.com/photo/2017/07/02/19/24/dumbbells-2465478_960_720.jpg" alt="Ejercitate" title="Articulos de deporte" width="480" height="320">
+<p> Hacer ejercicio te ayudará a mejorar tu salud o a revertir algunas enfermedades <br> que están relacionadas con mala alimentación y hábitos sedentarios como <br>diabetes y enfermedades del corazón. </p> 
+<p>Además el ejercicio te ayudará a tener una apariencia más agradable al ponerte <br> en buena forma física. También el ejercicio te ayuda a  prevenir enfermedades <br>crónicas, aumenta tu fuerza física, te ayuda a liberar estrés y tensiones. </p>
+
+<h2 id="seccion3">Crea tu propio equilibrio</h2>
+<img src="https://cdn.pixabay.com/photo/2016/05/04/19/39/stones-1372677_960_720.jpg" alt="Equilibrio" title="Equilibrio" width="480" height="320">
+<p> No te estreses, ve cambiado poco a poco tus habitos y crea un plan a tu medida.
+
+</body>
+</html>
